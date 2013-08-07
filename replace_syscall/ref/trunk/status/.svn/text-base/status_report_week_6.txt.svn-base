@@ -1,0 +1,15 @@
+* cum se respecta deadline-urile prezentate în partea de planificare? ce probleme au aparut? ce modificari au aparut?
+	- e mai dificil decat initial propus (munca = timp putin pentru proiect SOA), timp mai mult necesar pentru dezvoltare, un inceput mai lent
+	- planificarea pentru prima saptamana (definirea formatului politicilor) a fost respectata.
+	- pentru saptamana in curs dezvoltarea a inceput destul de lent.
+
+* care este (auto)evaluarea pentru aceasta perioada? care este implicarea fiecarui membru în aceasta etapa?
+- crearea designului pentru politici – amandoi
+- inceperea dezvoltarii modulelor de de kernel, respectiv user-mode. Fiecare a inceput lucrul la ele, insa demararea s-a facut mai greu decat a fost planificat.
+	- ritmul a fost putin mai lent pentru ultima saptamana
+
+* cât de utile sunt solu?iile ?i tehnologiile alese? cât de utila este documenta?ia aleasa? care sunt necunoscutele în acest moment?
+	- pentru user-mode: foarte utile -> folosirea Flex pentru parsing -> o usoara extindere ulterioara
+	- pentru kernel-mode: solutiile nu sunt vaste. Se merge in primul rand pe interceptarea apelurilor de sistem. Pentru acest lucru documentatie este suficienta pe Internet, insa trebuie insusita corespunzator.
+	- necunoscute: cum se va implementa restrictionarea din punct de vedere al resurselor de CPU, memorie.
+ 

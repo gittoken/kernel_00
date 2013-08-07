@@ -1,0 +1,15 @@
+Compilare:
+Se apeleaza comanda make -> se va creea "a.out" fisierul executabil si lex.yy.c
+
+Curatare:
+"make clean"
+
+Rulare:
+"./a.out"
+Sunt acceptate comenzile NUMAI in >>>lower case<<<:
+start, stop, update - deocamdata nu fac nimic
+current - afiseaza variabilele user si group
+exit quit - termina aplicatia
+user [username] - introduce un user
+group [groupname] - introduce un grup
+delete [numar] - deocamdata afiseaza doar ce s-a introdus
